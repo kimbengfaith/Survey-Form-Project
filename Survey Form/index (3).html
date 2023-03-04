@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>GDSC Survey Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1 id='title'>GDSC Mentorship Program Survey Form</h1>
+    <p id='description' class='description'>Thanks for taking your time to help us help us make this program better.</p>
+    <form>
+        <div class='form-group'><label for='name-label'>Name</label> <input type='text' id='name' id='name-label' class='form-control' placeholder="Enter your name" required></div>
+        <div class='form-group'><label for='email-label'>Email</label> <input type='email' id='email' id='email-label' class='form-control' placeholder="Enter your email" required></div>
+        <div class='form-group'><label for='number-label'>Age</label><input id='number' type='number' min='18' max='45' id='number-label'class='form-control' placeholder='Age'></div>
+      
+      <div>
+        <p>What is(was) your current stack during this mentorship</p>
+          <select class='form-control'>
+            <option>Select an option below</option>
+            <option>font-end development</option>
+            <option>beck-end development</option>
+            <option>Andriod development</option>
+            <option>ui/ux</option>
+          </select>
+        
+      </div>
+      <div>
+        <p>Would you recommend this program to a friend?</p>
+       <label><input type='radio' name='recommend' value='defintely'> Definitely</label>
+        <label><input type='radio' name='recommend' value='maybe'> Maybe</label>
+        <label><input type='radio' name='recommend' value='notsure'>Not sure</label>
+      <div>
+         <p> What is your favourite thing you love about this program</p>
+          <select class='form-control'>
+            <option>Select an option</option>
+            <option>Networking and making new friends</option>
+            <option>Learning something new</option>
+            <option>online classes</option>
+            <option>onsite classes</option>
+            <option>Projects</option>
+            <option>Open-source</option>
+          </select>
+      </div>
+      <div>
+          <p>What will you like to see improve?</p>
+          <label><input type='checkbox'>Individual projects</label>
+          <label><input type='checkbox'>Group projects</label>
+          <label><input type='checkbox'>Challenges</label>
+          <label><input type='checkbox'>Additional courses</label>
+          <label><input type='checkbox'>Other(please write it down in the comment/suggestion box)</label>
+      </div>
+      <div>
+        <p>Any comments/suggestion?</p> <textarea placeholder="Enter your comment here"></textarea>
+      </div>                                
+      <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+      </div>
+      
+    </form>
+  </body>
+</html>
+

@@ -1,0 +1,57 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #fbf4f5;
+  color: black;
+  font-family: serif;
+  font-size: 19px;
+}
+
+h1, .description {
+  margin: 1em auto;
+  text-align: center;
+}
+div{
+  display:block;
+}
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+.form-control{
+  width:100%
+
+}
+label{
+  display:flex;
+  margin-bottom:0.5rem;
+}
+form{
+  background-color:#bbbbec;
+  padding:2.5rem;
+  width:600px;
+  margin:auto auto;
+  color:black
+  
+}
+p{
+  margin-top:25px;
+  margin-bottom:7px;
+}
+textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.1rem;
+    resize: vertical;
+}
+.submit-button {
+    margin-top:10px;
+    display: block;
+    width: 100%;
+    padding: 0.85rem;
+    border-radius: 2px;
+}
+.description{
+   margin-top:1.875rem;
+   font-style:italic;
+}
